@@ -17,6 +17,19 @@ You may start the assignment whenever you are ready. Once you have completed thi
 **Deliverable:**  
 Can be in any form such as tarball or git repo
 
+# Workflow
+To test my KMeans implementation I generate 2D random gaussian data with three different feature means, thus I also assign three different clusters to them as true label/clusters.
+
+Here is snippet of data visualization before and after KMeans.
+
+## Data and Their True Labels
+
+
+## Clustering with Predicted Labels vs True Labels
+
+
+Note that predicted labels might assign different color/label to data, but what matter is how data are clustered, and as can be seen, predicted labels are clustering data similarly to true labels, this shows that this KMeans implementation works.
+
 # Submission & Comment
 * The assignment was submitted both in jupyter notebook and python script located inside py-kmeans.
 * Created simulated dataset with true label so in the end visualization using my predicted and true labels can be compared.
